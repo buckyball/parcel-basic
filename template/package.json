@@ -31,6 +31,6 @@
     {{/sass}}
     "vue-loader": "^13.0.5",
     "vue-template-compiler": "^2.4.4",
-    "parcel-bundler": "^1.0.3",
+    "parcel-bundler": "^1.0.3"
   }
 }
