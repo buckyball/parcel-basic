@@ -1,4 +1,4 @@
-# parcel-simple
+# parcel-basic
 
 > A simple Vue 2.0 Parcel & `vue-loader` setup for quick prototyping.
 
@@ -8,7 +8,7 @@ This is a project template for [vue-cli](https://github.com/vuejs/vue-cli).
 
 ```bash
 $ npm install -g vue-cli
-$ vue init vinayakkulkarni/parcel-simple my-project
+$ vue init vinayakkulkarni/parcel-basic my-project
 $ cd my-project
 $ npm install
 $ npm run dev
@@ -19,7 +19,10 @@ $ npm run dev
 * `npm run dev`: Parcel + `vue-loader` with proper config for source maps &
   hot-reload.
 
-* `npm run build`: build with HTML/CSS/JS minification.
+* `npm run build`: build `without` HTML/CSS/JS minification.
+
+> Note: [There is a bug in Parcel right now messing up minified builds with uglifyjs](https://github.com/parcel-bundler/parcel/issues/8)
+
 
 For detailed explanation on how things work, consult the
 [docs for vue-loader](http://vuejs.github.io/vue-loader). Also check out the
